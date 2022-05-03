@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>wynk music</title>
+    <script src="script.js" defer></script>
+</head>
+<body id = "sk">
+    <header>
+        <span class="brand_logo_part" font_change>MUSIC</span>
+        <nav class="navbar" id="nav">
+            <div class="brand_n_search">
+                <img src="resources/brand.png"  alt="brand" class="brand">
+                <div class="searchbar pointer" id = "searched" >
+                    <a style="text-decoration: none; color: rgb(255, 255, 255);" font_change ><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <span class="text_deco" font_change >Search</span>
+                </div>
+                <div class="search_bar deactive">
+                    <input type="text" value="Enter your song">
+                </div>
+            </div>
+            <div class="nav_option">
+                <span class="text_deco pointer" font_change >Home</span>
+                <span class="text_deco pointer"font_change >Podcast</span>
+
+                <span class="text_deco pointer"font_change >Download App</span>
+                <span class="text_deco pointer" id = "theme"font_change ><i class="fa-solid fa-sun"></i></span>
+                <span class="text_deco pointer"font_change >अA</span>
+                <span class="text_deco pointer"font_change >SIGN IN</span>
+            </div>
+        </nav>
+        <nav class="navbar_responsive" id = "navbar_repo" style="color: aliceblue;">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </nav>
+        <div class="drop_down deactive" id = "nav_repo_tile">
+                <span class="text_deco pointer" font_change >Home</span>
+                <span class="text_deco pointer"font_change >Podcast</span>
+                <span class="text_deco pointer"font_change >Download App</span>
+                <span class="text_deco pointer" id = "theme_repo"font_change ><i class="fa-solid fa-sun"></i></span>
+                <span class="text_deco pointer"font_change >अA</span>
+                <span class="text_deco pointer"font_change >SIGN IN</span>
+        </div>
+    </header>
+    <main>
+        <section style="overflow: hidden !important;">
+            <!-- Slider main container -->
+            <div class="swiper_main ">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper sliding_window">
+                <!-- Slides -->
+                    <div class="swiper-slide ">
+                        <img src="resources/banner.webp" alt="">
+                    </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide">
+                        <img src="resources/fi2.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide">
+                        <img src="resources/fi3.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide">
+                        <img src="resources/fi4.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <img src="resources/fi.webp" alt="">
+                </div>  
+                </div>
+            </div>
+        </section>
+        <div class="sub_topic">
+            <span class="text_deco"font_change>New Release</span>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide" style="display: flex;">
+                <div class="img_card">
+                    <img src="resources//baila comigo.jpg" alt="">
+                    <span class="text_deco"font_change>Baila Comigo </span>
+                    <span class="desc_text">Selena Gomez - Baila Comigo </span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/beliver.jpg"    alt="">
+                    <span class="text_deco"font_change>Beliver</span>
+                    <span class="desc_text">Imagin dragons-Beliver</span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/bones.webp"    alt="">
+                    <span class="text_deco"font_change>bones </span>
+                    <span class="desc_text">imagin dragons-bones</span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/better.png"    alt="">
+                    <span class="text_deco"font_change>Treat You better </span>
+                    <span class="desc_text">Shawn mendis-better</span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources//faded.jpg"   alt="">
+                    <span class="text_deco"font_change>faded </span>
+                    <span class="desc_text">Alan Walker-faded</span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/gineus.png"    alt="">
+                    <span class="text_deco"font_change>genius </span>
+                    <span class="desc_text">Sia-genius</span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/igotyou.jpg"    alt="">
+                    <span class="text_deco"font_change>I Got You </span>
+                    <span class="desc_text">Bebe Rexha-I Got You</span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/newrules.png"    alt="">
+                    <span class="text_deco"font_change>New Rules </span>
+                    <span class="desc_text">Dua Lipa-New Rules</span>
+                </div>
+            </div>
+            </div>
+            <!-- If we need pagination -->
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="sub_topic">
+            <span class="text_deco"font_change>Top Chart</span>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide" style="display: flex;">
+                <div class="img_card">
+                    <img src="resources/top10_1.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Top 100 </span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/top10_2.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Weekly Top 20 </span>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/top10_3.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Social Media Top 20 </span>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/top10_4.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Romance Top 50 </span>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/top10_5.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Romance Top 40</span>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/top10_6.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Weekly Top 20 </span>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/top10_7.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>UK Top 20 </span>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/top10_8.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>K-pop Top 20 </span>
+                    
+                </div>
+            </div>
+            </div>
+            <!-- If we need pagination -->
+            
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>      
+        <div class="sub_topic">
+            <span class="text_deco"font_change>International Top Hits</span>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide" style="display: flex;">
+                <div class="img_card">
+                    <img src="resources/inthits1.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Closer </span>
+                    <span class="desc_text">The chainsmokers-Closer</span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/inthits2.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>No Lie </span>
+                    <span class="desc_text">Dua lipa-No lie</span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/inthits3.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Senorita </span>
+                    <span class="desc_text">Shawn mendis-Senorita</span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/gineus.png"   image = "1" alt="">
+                    <span class="text_deco"font_change>genius </span>
+                    <span class="desc_text">Sia-genius</span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/sorry.jfif"   image = "1" alt="">
+                    <span class="text_deco"font_change>Sorry </span>
+                    <span class="desc_text">Justin bieber-Sorry</span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/inthits6.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Unstoppable </span>
+                    <span class="desc_text">Sia-Unstoppable</span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/inthits7.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Stay </span>
+                    <span class="desc_text">Justin Bieber-stay</span>
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/igotyou.jpg"   image = "1" alt="">
+                    <span class="text_deco"font_change>I got You </span>
+                    <span class="desc_text">Bebe Rexha-I Got You</span>
+                </div>
+            </div>
+            </div>
+            <!-- If we need pagination -->
+            
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="sub_topic">
+            <span class="text_deco"font_change>Top Album</span>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide" style="display: flex;">
+                <div class="img_card">
+                    <img src="resources/topalbum1.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Love Ajj kal </span>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/topalbum2.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>WaterMelon-Sugar </span>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/topalbum3.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Shershaah </span>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/topalbum4.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Taylor Swift's Top </span>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/topalbum5.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Jersey's Top </span>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/topalbum6.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Adele (30) </span>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/topalbum7.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Gehraiyaan </span>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide " >
+                <div class="img_card">
+                    <img src="resources/topalbum8.webp"   image = "1" alt="">
+                    <span class="text_deco"font_change>Justice</span>
+                    
+                </div>
+            </div>
+            </div>
+            <!-- If we need pagination -->
+            
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <section class="promotion" id="promo">
+            <div style="display: flex;gap: 15px;padding: 15px; align-items: center;" class="box_wynk">
+                <div class="ico"></div>
+                <div class= "text_deco" font_change>
+                    <b>Best way to Listen to Music!</b><br>
+                    Don’t forget to install Wynk Music on your mobile phones
+                </div>
+            </div>
+            <div style="display: flex; gap: 10px; padding: 15px;">
+                <div class="play_store"></div>
+                <div class="apple_store"></div>
+            </div>
+        </section>
+    </main>
+    <footer >
+        <div class="foot"> 
+            <div class="option">
+                <span class="text_deco" font_change>
+                    LATEST ALBUMS
+                </span>
+                <span class="option_desc">
+                    <span class="desc_text">
+                        Familia  |  Dasvi  |  Doctor Original Motion Picture Soundtrack <br>  | 
+                        Shubh Vivah  |  Sara'S Original Motion Picture Soundtrack  |  <br>
+                        Pushpa - The Rise  |  Ninna Sanihake  |  Praktan  |  HIDDEN GEMS  |<br> 
+                        Bhavartha Mauli  |  Yuva Sarkar  |  Kati Jeher Hai  |  Mal mahu jiban mati  |  <br>
+                        Mainstream sellout
+                    </span>
+                </span>
+            </div>
+            <div class="option">
+                <span class="text_deco" font_change>
+                    GENRES
+                </span>
+                <span class="option_desc">
+                    <span class="desc_text">
+                        Rock Songs  |  Patriotic songs  |  Sufi Music  |  Ghazals <br> 
+                        Workout Music  |  Devotional Songs  |  Sad Songs  |  DJ  songs <br>
+                    </span>
+                </span>
+            </div>
+            <div class="option">
+                <span class="text_deco" font_change>
+                    OLD SONGS
+                </span>
+                <span class="option_desc">
+                    <span class="desc_text">
+                        Old  Songs  |  Old Hindi Songs  |  Old English | <br>  
+                        Songs  |  Old Punjabi Songs  |  Old Telugu  <br>
+                        Songs  |  Old Tamil Songs  |  Old Bengali <br> 
+                        Songs  |  Old Malayalam Songs  |  Old  <br>
+                        Kannada Songs
+                    </span>
+                </span>
+            </div>
+            <div class="option">
+                <span class="text_deco" font_change>
+                    TOP ARTISTS
+                </span>
+                <span class="option_desc">
+                    <span class="desc_text">
+                        Guru Randhawa  |  Arijit Singh  |  Atif Aslam  |   <br> 
+                        Justin Bieber  |  Gulzar  |  Armaan Malik  |    <br>
+                        Sidhu Moose Wala  |  Alan Walker  |  Udit <br> 
+                        Narayan  |  Sonu Nigam  |  Sid Sriram  |  Akhil  |   <br>
+                        Darshan Raval  |  Shreya Ghoshal  |  Alka Yagnik
+                    </span>
+                </span>
+            </div>
+            <div class="option">
+                <span class="text_deco" font_change>
+                    LANGUAGES
+                </span>
+                <span class="option_desc">
+                    <span class="desc_text">
+                        Bengali Songs | Bhojpuri Songs | New English Songs |<br>   
+                        New Hindi Songs | New Haryanvi Songs | New Hindi Songs | <br>
+                        New Marathi Songs  |  New Punjabi Songs  |  <br> 
+                        New Tamil Songs  |  New Telugu Songs  | <br> New Odiya Songs  |  New Rajasthani Songs  |  
+                    </span>
+                </span>
+            </div>
+            <div class="option">
+                <span class="text_deco" font_change>
+                    LATEST ALBUMS
+                </span>
+                <span class="option_desc">
+                    <span class="desc_text">
+                        Familia  |  Dasvi  |  Doctor Original Motion Picture Soundtrack <br>  | 
+                        Shubh Vivah  |  Sara'S Original Motion Picture Soundtrack  |  <br>
+                        Pushpa - The Rise  |  Ninna Sanihake  |  Praktan  |  HIDDEN GEMS  |<br> 
+                        Bhavartha Mauli  |  Yuva Sarkar  |  Kati Jeher Hai  |  Mal mahu jiban mati  |  <br>
+                        Mainstream sellout
+                    </span>
+                </span>
+            </div>
+            <div class="option">
+                <span class="text_deco" font_change>
+                    LATEST ALBUMS
+                </span>
+                <span class="option_desc">
+                    <span class="desc_text">
+                        Familia  |  Dasvi  |  Doctor Original Motion Picture Soundtrack <br>  | 
+                        Shubh Vivah  |  Sara'S Original Motion Picture Soundtrack  |  <br>
+                        Pushpa - The Rise  |  Ninna Sanihake  |  Praktan  |  HIDDEN GEMS  |<br> 
+                        Bhavartha Mauli  |  Yuva Sarkar  |  Kati Jeher Hai  |  Mal mahu jiban mati  |  <br>
+                        Mainstream sellout
+                    </span>
+                </span>
+            </div>
+            <div class="option">
+                <span class="text_deco" font_change>
+                    LATEST ALBUMS
+                </span>
+                <span class="option_desc">
+                    <span class="desc_text">
+                        Familia  |  Dasvi  |  Doctor Original Motion Picture Soundtrack <br>  | 
+                        Shubh Vivah  |  Sara'S Original Motion Picture Soundtrack  |  <br>
+                        Pushpa - The Rise  |  Ninna Sanihake  |  Praktan  |  HIDDEN GEMS  |<br> 
+                        Bhavartha Mauli  |  Yuva Sarkar  |  Kati Jeher Hai  |  Mal mahu jiban mati  |  <br>
+                        Mainstream sellout
+                    </span>
+                </span>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="about">
+            <div class="about_text" font_change>
+                                ABOUT US | 
+                ADVERTISE WITH US |
+                PRIVACY POLICY | 
+                TERMS OF USE | 
+                CONTACT US | 
+                FEEDBACK | 
+                HELLOTUNES
+            </div>
+            <div class="about_link" font_change>
+                <a href="https://www.facebook.com/WynkMusic" target="blank" font_change><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/WynkMusic"><i class="fa-brands fa-twitter"font_change></i></a>
+                <a href="https://www.instagram.com/wynkmusic"><i class="fa-brands fa-instagram"font_change></i></a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        loop: false,
+        slidesPerView: 6,
+        // If we need pagination
+        pagination: {
+            clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // responsive ness
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+            slidesPerView: 1,
+            },
+            // when window width is >= 480px
+            480: {
+            slidesPerView: 2, 
+            spaceBetween: 30
+            },
+            // when window width is >= 640px
+            640: {
+            slidesPerView: 3,
+            spaceBetween: 20
+            },
+            800: {
+            slidesPerView: 4,   
+            spaceBetween: 20
+            },
+            1250:{
+                slidesPerView: 6,
+                spaceBetween: 40
+            }
+        }
+        });
+        const swiper_2 = new Swiper('.swiper_main', {
+        // Optional parameters
+        loop: true,
+        slidesPerView: 3,
+        // If we need pagination
+        pagination: {
+            clickable: true,
+        },
+        centeredSlides: true,
+        autoplay: {
+          delay: 10000,
+          disableOnInteraction: false,
+        },
+        // responsive ness
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+            slidesPerView: 5,
+            spaceBetween: 20
+            },
+            // when window width is >= 480px
+            480: {
+            slidesPerView: 6, 
+            spaceBetween: 30
+            },
+            // when window width is >= 640px
+            640: {
+            slidesPerView: 6,
+            spaceBetween: 50
+            },
+            800: {
+            slidesPerView: 6,   
+            spaceBetween: 50
+            },
+            1250:{
+                slidesPerView: 6,
+                spaceBetween: 40
+            }
+        }
+        });
+    </script>
+</body>
+</html>
